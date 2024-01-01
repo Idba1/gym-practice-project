@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.logo-tittle{
+    margin-left: 100px;
+    font-size: 53px;
+    font-weight: bold;
+    font-style: italic;
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;
+    margin: 0  auto;
+    letter-spacing: .4rem;
+}
+.menu-bar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.menu-bar div{
+    display: flex;
+} 
+.menu-items {
+    display: flex;
+    margin-right: 150px;
+}
+.menu-items li{
+    list-style: none;
+    padding: 15px;
+    font-size: 18px;
+}
+.menu-items li:hover{
+    color: rgb(255, 30, 0);
+}
